@@ -1,0 +1,465 @@
+{
+  "generated_at": "2026-11-24T18:01:08.640Z",
+  "total_apps": 100,
+  "headlines": {
+    "self_serve_total": 76,
+    "self_serve_pct": 76,
+    "easy_win_count": 59,
+    "easy_win_pct": 59,
+    "oauth2_primary_count": 50,
+    "oauth2_any_count": 80,
+    "official_mcp_count": 79,
+    "official_mcp_pct": 79,
+    "top_blocker": "App Review / Verification Gate",
+    "top_blocker_count": 12
+  },
+  "distributions": {
+    "auth_primary": [
+      {
+        "label": "OAuth2",
+        "count": 50,
+        "pct": 50
+      },
+      {
+        "label": "Bearer / PAT",
+        "count": 19,
+        "pct": 19
+      },
+      {
+        "label": "API Key",
+        "count": 13,
+        "pct": 13
+      },
+      {
+        "label": "Basic",
+        "count": 8,
+        "pct": 8
+      },
+      {
+        "label": "Custom Header / HMAC",
+        "count": 7,
+        "pct": 7
+      },
+      {
+        "label": "None (CLI / Local)",
+        "count": 2,
+        "pct": 2
+      },
+      {
+        "label": "IAM / SSO",
+        "count": 1,
+        "pct": 1
+      }
+    ],
+    "access_tier": [
+      {
+        "label": "Self-Serve (Free)",
+        "count": 50,
+        "pct": 50
+      },
+      {
+        "label": "Self-Serve (Trial / Freemium)",
+        "count": 18,
+        "pct": 18
+      },
+      {
+        "label": "Paid Plan Gate",
+        "count": 12,
+        "pct": 12
+      },
+      {
+        "label": "Admin / App Review Gate",
+        "count": 12,
+        "pct": 12
+      },
+      {
+        "label": "Partner / Sales Gate",
+        "count": 8,
+        "pct": 8
+      }
+    ],
+    "self_serve_cluster": [
+      {
+        "label": "Self-Serve",
+        "count": 49,
+        "pct": 49
+      },
+      {
+        "label": "Self-Serve (Trial / Paid)",
+        "count": 27,
+        "pct": 27
+      },
+      {
+        "label": "Partially Gated (Review / Admin)",
+        "count": 14,
+        "pct": 14
+      },
+      {
+        "label": "Gated (Partner / Enterprise)",
+        "count": 10,
+        "pct": 10
+      }
+    ],
+    "buildability_verdict": [
+      {
+        "label": "Easy Win (Build Today)",
+        "count": 59,
+        "pct": 59
+      },
+      {
+        "label": "Buildable (Minor Friction)",
+        "count": 22,
+        "pct": 22
+      },
+      {
+        "label": "Gated (Outreach / Compliance Needed)",
+        "count": 17,
+        "pct": 17
+      },
+      {
+        "label": "Not Standard SaaS API (CLI / Local)",
+        "count": 2,
+        "pct": 2
+      }
+    ],
+    "primary_blocker": [
+      {
+        "label": "None (Ready)",
+        "count": 58,
+        "pct": 58
+      },
+      {
+        "label": "App Review / Verification Gate",
+        "count": 12,
+        "pct": 12
+      },
+      {
+        "label": "Paid Plan / Credit Gate",
+        "count": 12,
+        "pct": 12
+      },
+      {
+        "label": "Partner / Enterprise Sales Gate",
+        "count": 10,
+        "pct": 10
+      },
+      {
+        "label": "Non-Standard / Local Auth or CLI",
+        "count": 7,
+        "pct": 7
+      },
+      {
+        "label": "Ambiguous / Undocumented Entity",
+        "count": 1,
+        "pct": 1
+      }
+    ],
+    "mcp_status": [
+      {
+        "label": "Official Remote MCP",
+        "count": 62,
+        "pct": 62
+      },
+      {
+        "label": "Official Local / OSS MCP",
+        "count": 17,
+        "pct": 17
+      },
+      {
+        "label": "Community / 3P Only",
+        "count": 12,
+        "pct": 12
+      },
+      {
+        "label": "None",
+        "count": 6,
+        "pct": 6
+      },
+      {
+        "label": "Official (Enterprise / Docs-Only)",
+        "count": 3,
+        "pct": 3
+      }
+    ],
+    "api_breadth": [
+      {
+        "label": "Comprehensive",
+        "count": 69,
+        "pct": 69
+      },
+      {
+        "label": "Moderate",
+        "count": 22,
+        "pct": 22
+      },
+      {
+        "label": "Narrow / Specialized",
+        "count": 5,
+        "pct": 5
+      },
+      {
+        "label": "Minimal / Unofficial",
+        "count": 2,
+        "pct": 2
+      },
+      {
+        "label": "None (CLI-only)",
+        "count": 2,
+        "pct": 2
+      }
+    ],
+    "protocol_adoption": [
+      {
+        "label": "REST",
+        "count": 95,
+        "pct": 95
+      },
+      {
+        "label": "Webhooks",
+        "count": 71,
+        "pct": 71
+      },
+      {
+        "label": "RPC / SDK",
+        "count": 18,
+        "pct": 18
+      },
+      {
+        "label": "GraphQL",
+        "count": 14,
+        "pct": 14
+      },
+      {
+        "label": "CLI",
+        "count": 4,
+        "pct": 4
+      }
+    ]
+  },
+  "category_matrix": [
+    {
+      "category": "CRM and Sales",
+      "total": 10,
+      "selfServeFreeOrFreemium": 9,
+      "paidPlanGate": 0,
+      "reviewOrAdminGate": 0,
+      "partnerOrSalesGate": 1,
+      "easyWin": 6,
+      "buildableFriction": 3,
+      "gatedOutreach": 1,
+      "cliLocal": 0,
+      "officialMcpCount": 8,
+      "oauth2Count": 10
+    },
+    {
+      "category": "Support and Helpdesk",
+      "total": 10,
+      "selfServeFreeOrFreemium": 6,
+      "paidPlanGate": 3,
+      "reviewOrAdminGate": 0,
+      "partnerOrSalesGate": 1,
+      "easyWin": 7,
+      "buildableFriction": 2,
+      "gatedOutreach": 1,
+      "cliLocal": 0,
+      "officialMcpCount": 9,
+      "oauth2Count": 8
+    },
+    {
+      "category": "Communications and Messaging",
+      "total": 10,
+      "selfServeFreeOrFreemium": 8,
+      "paidPlanGate": 1,
+      "reviewOrAdminGate": 1,
+      "partnerOrSalesGate": 0,
+      "easyWin": 6,
+      "buildableFriction": 2,
+      "gatedOutreach": 2,
+      "cliLocal": 0,
+      "officialMcpCount": 7,
+      "oauth2Count": 8
+    },
+    {
+      "category": "Marketing, Ads, Email and Social",
+      "total": 10,
+      "selfServeFreeOrFreemium": 4,
+      "paidPlanGate": 1,
+      "reviewOrAdminGate": 5,
+      "partnerOrSalesGate": 0,
+      "easyWin": 4,
+      "buildableFriction": 3,
+      "gatedOutreach": 3,
+      "cliLocal": 0,
+      "officialMcpCount": 6,
+      "oauth2Count": 8
+    },
+    {
+      "category": "Ecommerce",
+      "total": 10,
+      "selfServeFreeOrFreemium": 6,
+      "paidPlanGate": 1,
+      "reviewOrAdminGate": 1,
+      "partnerOrSalesGate": 2,
+      "easyWin": 5,
+      "buildableFriction": 2,
+      "gatedOutreach": 3,
+      "cliLocal": 0,
+      "officialMcpCount": 7,
+      "oauth2Count": 9
+    },
+    {
+      "category": "Data, SEO and Scraping",
+      "total": 10,
+      "selfServeFreeOrFreemium": 6,
+      "paidPlanGate": 3,
+      "reviewOrAdminGate": 0,
+      "partnerOrSalesGate": 1,
+      "easyWin": 5,
+      "buildableFriction": 3,
+      "gatedOutreach": 1,
+      "cliLocal": 1,
+      "officialMcpCount": 8,
+      "oauth2Count": 4
+    },
+    {
+      "category": "Developer, Infra and Data platforms",
+      "total": 10,
+      "selfServeFreeOrFreemium": 10,
+      "paidPlanGate": 0,
+      "reviewOrAdminGate": 0,
+      "partnerOrSalesGate": 0,
+      "easyWin": 9,
+      "buildableFriction": 1,
+      "gatedOutreach": 0,
+      "cliLocal": 0,
+      "officialMcpCount": 10,
+      "oauth2Count": 10
+    },
+    {
+      "category": "Productivity and Project Management",
+      "total": 10,
+      "selfServeFreeOrFreemium": 9,
+      "paidPlanGate": 1,
+      "reviewOrAdminGate": 0,
+      "partnerOrSalesGate": 0,
+      "easyWin": 9,
+      "buildableFriction": 1,
+      "gatedOutreach": 0,
+      "cliLocal": 0,
+      "officialMcpCount": 10,
+      "oauth2Count": 10
+    },
+    {
+      "category": "Finance and Fintech",
+      "total": 10,
+      "selfServeFreeOrFreemium": 3,
+      "paidPlanGate": 0,
+      "reviewOrAdminGate": 5,
+      "partnerOrSalesGate": 2,
+      "easyWin": 2,
+      "buildableFriction": 4,
+      "gatedOutreach": 4,
+      "cliLocal": 0,
+      "officialMcpCount": 6,
+      "oauth2Count": 6
+    },
+    {
+      "category": "AI, Research and Media-native",
+      "total": 10,
+      "selfServeFreeOrFreemium": 7,
+      "paidPlanGate": 2,
+      "reviewOrAdminGate": 0,
+      "partnerOrSalesGate": 1,
+      "easyWin": 6,
+      "buildableFriction": 1,
+      "gatedOutreach": 2,
+      "cliLocal": 1,
+      "officialMcpCount": 8,
+      "oauth2Count": 7
+    }
+  ],
+  "verification": {
+    "total_apps": 100,
+    "pass1_exact_count": 75,
+    "pass1_exact_rate_pct": 75,
+    "pass2_corrected_count": 25,
+    "pass3_verified_rate_pct": 99,
+    "http_ok_count": 94,
+    "http_waf_count": 6,
+    "http_other_count": 0,
+    "sample_total": 25,
+    "sample_pass1_exact": 4,
+    "sample_pass1_partial": 7,
+    "sample_pass1_wrong": 14,
+    "sample_pass1_accuracy_pct": 30,
+    "sample_pass1_strict_pct": 16,
+    "human_needed_count": 7,
+    "top_error_modes": [
+      {
+        "label": "mcp_status",
+        "count": 10,
+        "pct": 40
+      },
+      {
+        "label": "mcp_details",
+        "count": 8,
+        "pct": 32
+      },
+      {
+        "label": "access_tier",
+        "count": 7,
+        "pct": 28
+      },
+      {
+        "label": "buildability_verdict",
+        "count": 6,
+        "pct": 24
+      },
+      {
+        "label": "auth_primary",
+        "count": 5,
+        "pct": 20
+      },
+      {
+        "label": "primary_blocker",
+        "count": 4,
+        "pct": 16
+      },
+      {
+        "label": "evidence_url",
+        "count": 4,
+        "pct": 16
+      },
+      {
+        "label": "auth_methods",
+        "count": 3,
+        "pct": 12
+      },
+      {
+        "label": "auth_notes",
+        "count": 3,
+        "pct": 12
+      },
+      {
+        "label": "gating_details",
+        "count": 3,
+        "pct": 12
+      },
+      {
+        "label": "self_serve_cluster",
+        "count": 3,
+        "pct": 12
+      },
+      {
+        "label": "one_liner",
+        "count": 2,
+        "pct": 8
+      },
+      {
+        "label": "api_surface",
+        "count": 1,
+        "pct": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "composio-100-app-research-agent",
+  "version": "1.0.0",
+  "description": "AI Product Ops research & multi-pass verification pipeline across 100 SaaS/developer apps using Composio SDK + Tool Router MCP.",
+  "type": "module",
+  "scripts": {
+    "research:pass1": "tsx src/agent/run_pipeline.ts --pass1",
+    "verify:urls": "tsx src/agent/verify_urls.ts",
+    "verify:diff": "tsx src/analysis/compute_patterns.ts",
+    "build:report": "tsx src/report/build_html.ts",
+    "run:all": "tsx src/agent/run_pipeline.ts --all"
+  },
+  "dependencies": {
+    "@composio/core": "latest",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
